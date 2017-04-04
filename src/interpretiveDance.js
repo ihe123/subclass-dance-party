@@ -1,4 +1,4 @@
-var BlinkyDancer = function(top, left, timeBetweenSteps) {
+var IntepretiveDancer = function(top, left, timeBetweenSteps) {
   Dancer.apply(this, arguments);
 };
 
@@ -11,9 +11,4 @@ BlinkyDancer.prototype.oldStep = Dancer.prototype.step;
 BlinkyDancer.prototype.step = function () {
   this.oldStep();
   this.$node.toggle();
-
 };
-
-
-
-
