@@ -1,14 +1,18 @@
 var BalletDancer = function(top, left, timeBetweenSteps) {
   Dancer.apply(this, arguments);
+  //this.timeBetweenSteps = timeBetweenSteps;
+  this.$node = $('<span class="ballerinaDancer"></span>');
+  this.setPosition(top,left);
+  this.step();
 };
 
-BlinkyDancer.prototype = Object.create(Dancer.prototype);
+BalletDancer.prototype = Object.create(Dancer.prototype);
 
-BlinkyDancer.prototype.constructor = BlinkyDancer;
+BalletDancer.prototype.constructor = BalletDancer;
 
-BlinkyDancer.prototype.oldStep = Dancer.prototype.step;
+BalletDancer.prototype.oldStep = Dancer.prototype.step;
 
-BlinkyDancer.prototype.step = function () {
+BalletDancer.prototype.step = function () {
   this.oldStep();
   this.$node.toggle();
 };

@@ -3,25 +3,68 @@ body, html{
 }
 body{
   margin: 0px;
+  background-image: url('http://weknownyourdreamz.com/images/jungle/jungle-02.jpg');
+  background-size: cover;
   background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
+
+
+
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
 }
+
+.title, .addDancerButton2{
+  padding:5px 12px;
+  float:right;
+}
+
+.title, .addDancerButton3{
+  padding:5px 12px;
+  float:right;
+}
+
+.title, .addDancerButton4{
+  padding:5px 12px;
+  float:right;
+}
+
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #333;
 }
 .title{
   background-color: #777;
 }
-.dancer{
+.dancer, .breakDancer {
+  border:10px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
+
+.dancer, .ballerinaDancer {
+  border:10px solid green;
+  border-radius:100px;
+  position:absolute;
+}
+
+.dancer, .interpretiveDancer {
+  border:10px solid purple;
+  border-radius:100px;
+  position:absolute;
+}
+
+.dancer {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
+
+
+
+
