@@ -3,51 +3,63 @@ body, html{
 }
 body{
   margin: 0px;
-  background-image: url('http://weknownyourdreamz.com/images/jungle/jungle-02.jpg');
+  background-image: url('http://vignette4.wikia.nocookie.net/spongebob/images/7/74/-The-Spongebob-Squarepants-Movie-spongebob-squarepants-16980886-1360-768.jpg/revision/latest?cb=20141029114336');
   background-size: cover;
   background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: black;
 }
 
-
-
 .title, .addDancerButton{
+  color: yellow;
+
   padding:5px 12px;
   float:right;
 }
 
 .title, .addDancerButton2{
+  background-color: yellow;
   padding:5px 12px;
   float:right;
 }
 
 .title, .addDancerButton3{
+  
   padding:5px 12px;
   float:right;
 }
 
 .title, .addDancerButton4{
+  background-color: yellow;
   padding:5px 12px;
   float:right;
 }
 
+.title, .lineUpButton{
+  color: yellow;
+
+  padding:5px 12px;
+
+}
+
 .topbar{
   height:32px;
-  background-color: #333;
+  background-color: #00FFFF;
 }
 .title{
   background-color: #777;
 }
 .dancer, .breakDancer {
+
   border:10px solid yellow;
   border-radius:10px;
   position:absolute;
 }
 
-.dancer, .ballerinaDancer {
+.dancer, .ballerina {
+  /*background-image: url('https://31.media.tumblr.com/f1299905002547f2ea978324add0a83a/tumblr_nhu8zj1Ngr1tmxne6o1_500.gif" height = "100" width ="100"')*/
   border:10px solid green;
   border-radius:100px;
   position:absolute;
@@ -65,6 +77,11 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
+/*.lineUpButton {
+  position: relative;
+  top: 50%;
+  tansform: translateY(-50%);
+}*/
 
 
 

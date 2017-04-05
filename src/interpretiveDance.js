@@ -3,7 +3,7 @@ var InterpretiveDancer = function(top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
   this.$node = $('<span class="interpretiveDancer"></span>');
   this.setPosition(top,left);
-  this.step();
+  // this.step();
 };
 
 InterpretiveDancer.prototype = Object.create(Dancer.prototype);
