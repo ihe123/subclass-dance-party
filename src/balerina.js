@@ -1,9 +1,10 @@
 var BalletDancer = function(top, left, timeBetweenSteps) {
   Dancer.apply(this, arguments);
   //this.$node = $('<spanclass="ballerinaDancer"></span>');
-  this.$node = $('<span class="ballerina"><img src = "https://31.media.tumblr.com/f1299905002547f2ea978324add0a83a/tumblr_nhu8zj1Ngr1tmxne6o1_500.gif" height = "100" width ="100"'></span>')
+  this.timeBetweenSteps = timeBetweenSteps;
+  this.$node = $('<span class = "ballerinaDancer"><img src="https://68.media.tumblr.com/20b7387a54fe44f4c32fc593e841c9e7/tumblr_nkltsd1Ny11u2rj44o2_500.gif" height = "200" width = "150"></span>')
   //this.step();
-  this.$node.setPosition($('body').height() * Math.random(), $('body').width() * Math.random());
+  this.setPosition($('body').height() * Math.random(), $('body').width() * Math.random());
 };
 
 BalletDancer.prototype = Object.create(Dancer.prototype);

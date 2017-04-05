@@ -38,10 +38,9 @@ body, a:link, a:visited, a:active{
 }
 
 .title, .lineUpButton{
+
   color: yellow;
-
   padding:5px 12px;
-
 }
 
 .topbar{
@@ -53,28 +52,28 @@ body, a:link, a:visited, a:active{
 }
 .dancer, .breakDancer {
 
-  border:10px solid yellow;
-  border-radius:10px;
+ 
   position:absolute;
 }
 
-.dancer, .ballerina {
-  /*background-image: url('https://31.media.tumblr.com/f1299905002547f2ea978324add0a83a/tumblr_nhu8zj1Ngr1tmxne6o1_500.gif" height = "100" width ="100"')*/
-  border:10px solid green;
+.dancer, .ballerinaDancer {
+  
+ /* border:10px solid green;*/
+  height: 50%;
+  width: 50%;
   border-radius:100px;
   position:absolute;
 }
 
 .dancer, .interpretiveDancer {
-  border:10px solid purple;
-  border-radius:100px;
+  
   position:absolute;
 }
 
-.dancer {
-  border:10px solid red;
-  border-radius:10px;
+.dancer, .blinkyDancer {
+  
   position:absolute;
+
 }
 
 /*.lineUpButton {
